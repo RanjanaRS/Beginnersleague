@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme</title>
+</head>
+<body id="colorchange">
+   <center> <h1 >Welcome to my page....</h1></center>
+   <h3>Click on the button to change theme..</h3>
+  <button onclick="theme()">Change Theme</button>
+  <button onclick="update()">Reset</button>
+  <script>
+    var change=document.getElementById("colorchange")
+    function theme()
+    {
+      change.style.backgroundColor="black"
+    }
+    function update()
+    {
+       change.style.backgroundColor="white" 
+    } 
+  </script>
+</body>
+</html>
