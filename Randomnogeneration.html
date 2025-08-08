@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Number</title>
+</head>
+<body>
+    <h1>Number Game</h1>
+    <h2 id="guess"></h2>
+    <h3 id="h3"></h3>
+    <button onclick="numgen()">Generate number</button>
+    <script>
+        var randomnumber=document.getElementById("guess")
+        var guessno=Math.floor(Math.random()*100)
+        var h3=document.getElementById("h3")
+        function numgen()
+        {
+            randomnumber.textContent=guessno;
+            if(guessno > 90)
+            {
+                  h3.textContent="Congatulations! you are lucky"
+            }
+        }
+        
+    </script>
+
+</body>
+</html>
