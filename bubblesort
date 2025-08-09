@@ -36,3 +36,6 @@ char a[50][50];
  {
    sorting();
  }
+
+
+// here i have sorted my fav food by their length using bubble sort 
